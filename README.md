@@ -1,10 +1,14 @@
 # Groom Room Voice — groom-room-alexa
 
+
 A simulated **Alexa+** pet-grooming booking experience for **Groom Room by Asha**, a dog & cat grooming studio in Indiranagar, Bengaluru. Built for the **Build, Ship, Shape: Amazon Developer Hackathon** (Alexa+ track).
+
 
 > This is a **simulated** Alexa+ experience built as a web app — it does not run on a real Alexa device and makes no Amazon API calls.
 
+
 ## What it does
+
 
 - Tap a sample phrase or type your own request — the glowing ring moves through
   Listening → Thinking → Speaking states with live timed transcription.
@@ -20,19 +24,26 @@ A simulated **Alexa+** pet-grooming booking experience for **Groom Room by Asha*
 
 ## Run it
 
+
 ```bash
 npm install
 npm run dev
 ```
 
+
 ## Stack
+
 
 React 18 + Vite. No backend, no keys, no build-time secrets — all state lives in the browser.
 
+
 ## Note on provenance
+
 
 This repository is a clean-room reimplementation of the Groom Room Voice demo,
 which was originally built in Lovable. It was reimplemented here file-by-file
 because Lovable's GitHub export was unavailable at submission time. Behavior —
 ring states, slot parsing, one-at-a-time follow-ups, confirmation cards,
 pricing (INR), and transcript logging — was verified against the original app.
+
+It is a simulated Alexa+ web app (no real Alexa device, no Amazon API calls), built after 31 Aug 2026. All prices are in INR.
